@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veggify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+
+     <div class="sidebar">
+        <h1>Prepify</h1>
+        <h5>Personalized meal prep, powered by AI.</h5>
+        <br>
+        <br>
+        <div class="Sideitem">
+        <div class="hi">Profile</div>
+        <div class="hi">Recipes</div>
+        <div class="hi">Bookmarks</div>
+        </div>
+       
+
+     </div>
+     <div class="main">
+        
+        <div class="recipe">
+  <div style="margin: 10px; font-size: 2rem;">Recipe Generator</div>
+
+  <div class="items">
+    <div><label for="ingredients">Ingredients</label></div>
+    <input type="text" id="ingredients" placeholder="Enter ingredients (comma separated)">
+  </div>
+
+  <div class="items">
+    <div><label for="meal">Meal Type</label></div>
+    <input type="text" id="meal" placeholder="e.g. Breakfast, Dinner, Snack">
+  </div>
+
+  <div class="items">
+    <div><label for="time">Cooking Time</label></div>
+    <input type="text" id="time" placeholder="e.g. 10 minutes">
+  </div>
+
+  <div class="items">
+    <div><label for="complexity">Complexity</label></div>
+    <input type="text" id="complexity" placeholder="e.g. Beginner, Intermediate, Advanced">
+  </div>
+
+  <div class="button">
+    <button id="generateBtn">Generate Recipe</button>
+  </div>
+</div>
+
+<div id="output" class="output"></div>
+
+      
+     </div>
+
+
+
+    </div>
+
+    
+</body>
+</html>
